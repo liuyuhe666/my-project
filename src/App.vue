@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import BackTop from './components/BackTop.vue'
 import Footer from './components/Footer.vue'
 import Header from './components/Header.vue'
 import ProjectCard from './components/ProjectCard.vue'
@@ -52,6 +53,7 @@ const currentIndex = ref<number>(-1)
     </div>
   </div>
   <Footer />
+  <BackTop />
 </template>
 
 <style lang="less" scoped>
