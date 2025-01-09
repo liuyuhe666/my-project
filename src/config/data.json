@@ -1,0 +1,123 @@
+[
+  {
+    "title": "应用",
+    "emoji": "📱",
+    "children": [
+      {
+        "name": "bilibili-rank",
+        "emoji": "📈",
+        "color": "#4ea5f5",
+        "description": "哔哩哔哩排行榜",
+        "url": "https://liuyuhe666.github.io/bilibili-rank",
+        "github": "https://github.com/liuyuhe666/bilibili-rank"
+      },
+      {
+        "name": "bili-listen-video",
+        "emoji": "🧐",
+        "color": "#b8c5d7",
+        "description": "哔哩听视频",
+        "url": "https://bili-listen-video.vercel.app",
+        "github": "https://github.com/liuyuhe666/bili-listen-video"
+      },
+      {
+        "name": "easy-rss-reader",
+        "emoji": "🎯",
+        "color": "#667788",
+        "description": "一个极简的 RSS 在线浏览工具",
+        "url": "https://easy-rss-reader.vercel.app",
+        "github": "https://github.com/liuyuhe666/easy-rss-reader"
+      },
+      {
+        "name": "agg-hot-search",
+        "emoji": "🔎",
+        "color": "#0078E7",
+        "description": "聚合热搜 ⌈ 哔哩哔哩热搜 ⌋ ⌈ 微博热搜 ⌋ ⌈ 知乎热搜 ⌋ ⌈ 头条热搜 ⌋ ⌈ 抖音热搜 ⌋",
+        "url": "https://agg-hot-search.vercel.app",
+        "github": "https://github.com/liuyuhe666/agg-hot-search"
+      }
+    ]
+  },
+  {
+    "title": "工具",
+    "emoji": "🔧",
+    "children": [
+      {
+        "name": "flzt-auto-checkin",
+        "emoji": "😮",
+        "color": "#20c077",
+        "description": "FLZT 机场签到",
+        "url": "",
+        "github": "https://github.com/liuyuhe666/flzt-auto-checkin"
+      },
+      {
+        "name": "my-api",
+        "emoji": "🤓",
+        "color": "#2562ea",
+        "description": "使用 Deno 和 Hono 构建的简单 API 列表项目",
+        "url": "",
+        "github": "https://github.com/liuyuhe666/my-api"
+      },
+      {
+        "name": "go-file-xor",
+        "emoji": "🤓",
+        "color": "#0078e7",
+        "description": "Go File XOR 👆🤓",
+        "url": "",
+        "github": "https://github.com/liuyuhe666/go-file-xor"
+      },
+      {
+        "name": "random-ua",
+        "emoji": "😎",
+        "color": "#2b57d4",
+        "description": "Random User Agent",
+        "url": "",
+        "github": "https://github.com/liuyuhe666/random-ua"
+      },
+      {
+        "name": "bilibili-qrcode-login",
+        "emoji": "📺",
+        "color": "#f1e05a",
+        "description": "Obtain a SESSDATA by logging in through QR code scanning",
+        "url": "https://bilibili-qrcode-login-production.up.railway.app",
+        "github": "https://github.com/liuyuhe666/bilibili-qrcode-login"
+      },
+      {
+        "name": "nextjs-moe-counter",
+        "emoji": "✨",
+        "color": "#92a3b4",
+        "description": "多种风格可选的萌萌计数器 | Moe Counter by Next.js",
+        "url": "https://nextjs-moe-counter.vercel.app",
+        "github": "https://github.com/liuyuhe666/nextjs-moe-counter"
+      }
+    ]
+  },
+  {
+    "title": "整活",
+    "emoji": "🤣",
+    "children": []
+  },
+  {
+    "title": "参与",
+    "emoji": "👥",
+    "children": []
+  },
+  {
+    "title": "实验",
+    "emoji": "🧪",
+    "children": []
+  },
+  {
+    "title": "其他",
+    "emoji": "📁",
+    "children": [
+      {
+        "name": "liuyuhe666.github.io",
+        "emoji": "🚀",
+        "color": "#16a34a",
+        "description": "我的博客",
+        "url": "https://liuyuhe666.github.io",
+        "github": "https://github.com/liuyuhe666/liuyuhe666.github.io"
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "个人主页",
+    "icon": "fa-solid fa-house",
+    "url": "https://homepage.liuyuhe.us.kg"
+  },
+  {
+    "name": "我的博客",
+    "icon": "fa-solid fa-file-lines",
+    "url": "https://hellolyh.xlog.app"
+  },
+  {
+    "name": "GitHub",
+    "icon": "fa-brands fa-github",
+    "url": "https://github.com/liuyuhe666"
+  }
+]
