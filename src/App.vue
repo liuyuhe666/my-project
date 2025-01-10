@@ -4,6 +4,7 @@ import BackTop from './components/BackTop.vue'
 import Footer from './components/Footer.vue'
 import Header from './components/Header.vue'
 import ProjectCard from './components/ProjectCard.vue'
+import SponsorMe from './components/SponsorMe.vue'
 import data from './config/data.json'
 
 const name = ref(import.meta.env.VITE_APP_USER_NAME)
@@ -52,6 +53,7 @@ const currentIndex = ref<number>(-1)
       </div>
     </div>
   </div>
+  <SponsorMe />
   <Footer />
   <BackTop />
 </template>
