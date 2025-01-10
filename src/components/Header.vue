@@ -27,13 +27,23 @@ onMounted(() => {
 <template>
   <header class="container">
     <div class="left">
-      <div v-for="item in linkList" :key="item.url">
+      <div
+        v-for="item in linkList" :key="item.url" v-motion
+        :initial="{ opacity: 0, y: 100 }"
+        :enter="{ opacity: 1, y: 0, scale: 1 }"
+        :hovered="{ scale: 1.5 }"
+      >
         <a :href="item.url" :title="item.name" target="_blank">
           <i :class="item.icon" />
         </a>
       </div>
     </div>
-    <div class="right">
+    <div
+      v-motion class="right"
+      :initial="{ opacity: 0, y: 100 }"
+      :enter="{ opacity: 1, y: 0, scale: 1 }"
+      :hovered="{ scale: 1.5 }"
+    >
       <span @click="toggleDarkMode">
         <i :class="darkModeIconClass" />
       </span>
@@ -79,6 +89,7 @@ onMounted(() => {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-right: 16px;
     span {
       padding: 8px;
       i {

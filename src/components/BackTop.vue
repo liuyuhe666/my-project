@@ -20,7 +20,11 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="backtop" @click="handleClick" />
+  <div
+    v-motion class="backtop" :enter="{ scale: 1 }"
+    :hovered="{ scale: 1.2 }"
+    @click="handleClick"
+  />
 </template>
 
 <style lang="less" scoped>

@@ -10,7 +10,11 @@ function toggle() {
 
 <template>
   <div class="sponsor-me-container">
-    <div class="sponsor-me-btn" @click="toggle">
+    <div
+      v-motion class="sponsor-me-btn" :enter="{ scale: 1 }"
+      :hovered="{ scale: 1.2 }"
+      @click="toggle"
+    >
       <i class="fa-solid fa-heart" style="color: #f87171;" />
     </div>
     <div v-if="isShow" v-motion-pop class="sponsor-me-box">
@@ -42,8 +46,7 @@ function toggle() {
         background-color: var(--background-color-rgb);
         &:hover {
             background-color: #ffffffe6;
-            transform: scale(1.1);
-            transition: transform .4s ease-in-out;
+            box-shadow: 0 1px 8px var(--shadow-color);
         }
     }
     .sponsor-me-box {
