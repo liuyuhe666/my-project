@@ -1,5 +1,33 @@
-# Vue 3 + TypeScript + Vite
+# My Project
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> 🎉 LiuYuhe's Projects
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+在线预览：
+
+- [https://my-project-topaz-chi.vercel.app](https://my-project-topaz-chi.vercel.app)
+- [https://project.liuyuhe.us.kg](https://project.liuyuhe.us.kg)
+
+## 🎯 本地运行
+
+```bash
+# 安装依赖
+pnpm install
+
+# 运行
+pnpm dev
+```
+
+## 🧐 部署
+
+> 推荐使用 Vercel 部署
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/liuyuhe666/my-project&repository-name=my-project)
+
+## ❤️ License
+
+[GNU General Public License v3.0](https://github.com/liuyuhe666/my-project/blob/main/LICENSE)
+
+## 📖 参考资料
+
+- [https://www.yunyoujun.cn/projects](https://www.yunyoujun.cn/projects)
+- [https://cn.vuejs.org](https://cn.vuejs.org)
