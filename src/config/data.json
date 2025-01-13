@@ -4,6 +4,14 @@
     "emoji": "📱",
     "children": [
       {
+        "name": "my-github-following",
+        "emoji": "😢",
+        "color": "#ffb02e",
+        "description": "GitHub Following",
+        "url": "https://my-github-following.vercel.app",
+        "github": "https://github.com/liuyuhe666/my-github-following"
+      },
+      {
         "name": "bilibili-rank",
         "emoji": "📈",
         "color": "#4ea5f5",
