@@ -50,6 +50,14 @@
     "emoji": "🔧",
     "children": [
       {
+        "name": "wx-gzh-cover",
+        "emoji": "🤗",
+        "color": "#d99abe",
+        "description": "微信公众号封面",
+        "url": "https://wx-gzh-cover.vercel.app",
+        "github": "https://github.com/liuyuhe666/wx-gzh-cover"
+      },
+      {
         "name": "flzt-auto-checkin",
         "emoji": "😮",
         "color": "#20c077",
