@@ -42,5 +42,9 @@ onMounted(() => {
     width: 150px;
     z-index: 999;
     opacity: v-bind(opacity);
+    /* 在移动端隐藏组件 */
+    @media (max-width: 768px) {
+      display: none;
+    }
 }
 </style>
