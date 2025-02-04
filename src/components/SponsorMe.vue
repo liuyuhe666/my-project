@@ -2,6 +2,9 @@
 import { ref } from 'vue'
 
 const isShow = ref(false)
+const proxyUrl = ref(import.meta.env.VITE_GITHUB_PROXY_URL)
+const alipayUrl = ref(`${proxyUrl.value}https://raw.githubusercontent.com/lyh-gzh/buy-me-a-coffee/refs/heads/main/assets/alipay.png`)
+const wxUrl = ref(`${proxyUrl.value}https://raw.githubusercontent.com/lyh-gzh/buy-me-a-coffee/refs/heads/main/assets/wx.png`)
 
 function toggle() {
   isShow.value = !isShow.value
@@ -20,8 +23,8 @@ function toggle() {
     <div v-if="isShow" v-motion-pop class="sponsor-me-box">
       <p>☕ Buy me a coffee</p>
       <div>
-        <img src="https://raw.githubusercontent.com/lyh-gzh/buy-me-a-coffee/refs/heads/main/assets/alipay.png" alt="支付宝">
-        <img src="https://raw.githubusercontent.com/lyh-gzh/buy-me-a-coffee/refs/heads/main/assets/wx.png" alt="微信">
+        <img :src="alipayUrl" alt="支付宝">
+        <img :src="wxUrl" alt="微信">
       </div>
     </div>
   </div>
@@ -57,6 +60,22 @@ function toggle() {
         background-color: var(--background-color-rgb);
         border-radius: var(--border-radius);
         margin-top: 8px;
+        div {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 8px;
+          img {
+            padding: 8px;
+            background-color: #fff;
+            border-radius: var(--border-radius);
+            box-shadow: 0 1px 8px var(--shadow-color);
+          }
+          @media (max-width: 768px) {
+            flex-direction: column;
+          }
+        }
     }
 }
 </style>
