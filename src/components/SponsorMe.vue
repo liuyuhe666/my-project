@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import Image from './Image.vue'
 
 const isShow = ref(false)
 const proxyUrl = ref(import.meta.env.VITE_GITHUB_PROXY_URL)
@@ -23,8 +24,8 @@ function toggle() {
     <div v-if="isShow" v-motion-pop class="sponsor-me-box">
       <p>☕ Buy me a coffee</p>
       <div>
-        <img :src="alipayUrl" alt="支付宝">
-        <img :src="wxUrl" alt="微信">
+        <Image :src="alipayUrl" alt="支付宝" class="img" />
+        <Image :src="wxUrl" alt="微信" class="img" />
       </div>
     </div>
   </div>
@@ -66,7 +67,7 @@ function toggle() {
           justify-content: center;
           align-items: center;
           gap: 8px;
-          img {
+          .img {
             padding: 8px;
             background-color: #fff;
             border-radius: var(--border-radius);
