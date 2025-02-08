@@ -8,9 +8,18 @@ importers:
 
   .:
     dependencies:
+      '@ctrl/tinycolor':
+        specifier: ^4.1.0
+        version: 4.1.0
+      '@explosions/fireworks':
+        specifier: ^0.1.0
+        version: 0.1.0
       '@vueuse/motion':
         specifier: ^2.2.6
         version: 2.2.6(rollup@4.30.1)(vue@3.5.13(typescript@5.6.3))
+      animejs:
+        specifier: ^3.2.2
+        version: 3.2.2
       less:
         specifier: ^4.2.1
         version: 4.2.1
@@ -173,6 +182,10 @@ packages:
 
   '@clack/prompts@0.9.0':
     resolution: {integrity: sha512-nGsytiExgUr4FL0pR/LeqxA28nz3E0cW7eLTSh3Iod9TGrbBt8Y7BHbV3mmkNC4G0evdYyQ3ZsbiBkk7ektArA==}
+
+  '@ctrl/tinycolor@4.1.0':
+    resolution: {integrity: sha512-WyOx8cJQ+FQus4Mm4uPIZA64gbk3Wxh0so5Lcii0aJifqwoVOlfFtorjLE0Hen4OYyHZMXDWqMmaQemBhgxFRQ==}
+    engines: {node: '>=14'}
 
   '@es-joy/jsdoccomment@0.49.0':
     resolution: {integrity: sha512-xjZTSFgECpb9Ohuk5yMX5RhUEbfeQcuOp8IF60e+wyzWEF0M5xeSgqsfLtvPEX8BIyOX9saZqzuGPmZ8oWc+5Q==}
@@ -380,6 +393,9 @@ packages:
   '@eslint/plugin-kit@0.2.4':
     resolution: {integrity: sha512-zSkKow6H5Kdm0ZUQUB2kV5JIXqoG0+uH5YADhaEHswm664N9Db8dXSi0nMJpacpMf+MyyglF1vnZohpEg5yUtg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@explosions/fireworks@0.1.0':
+    resolution: {integrity: sha512-40qDR55zIxl2eTBZ1k4uTibl17t3bpf63uL3NjieD4bmrIpvJHyL4xZnDBrR98OicPVGxTUj4kAwe1P511ll4A==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -740,6 +756,9 @@ packages:
 
   alien-signals@0.4.13:
     resolution: {integrity: sha512-ZT1lNVbc5LgGLk3hPaJChB8o8n0rF15R1ny/wrsR/XZbBaJnxvtOoLsHw+OXuQPtVzQTkATgR6gACqwG3nyiVQ==}
+
+  animejs@3.2.2:
+    resolution: {integrity: sha512-Ao95qWLpDPXXM+WrmwcKbl6uNlC5tjnowlaRYtuVDHHoygjtIPfDUoK9NthrlZsQSKjZXlmji2TrBUAVbiH0LQ==}
 
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -2402,6 +2421,8 @@ snapshots:
       picocolors: 1.1.1
       sisteransi: 1.0.5
 
+  '@ctrl/tinycolor@4.1.0': {}
+
   '@es-joy/jsdoccomment@0.49.0':
     dependencies:
       comment-parser: 1.4.1
@@ -2542,6 +2563,8 @@ snapshots:
   '@eslint/plugin-kit@0.2.4':
     dependencies:
       levn: 0.4.1
+
+  '@explosions/fireworks@0.1.0': {}
 
   '@humanfs/core@0.19.1': {}
 
@@ -2958,6 +2981,8 @@ snapshots:
       uri-js: 4.4.1
 
   alien-signals@0.4.13: {}
+
+  animejs@3.2.2: {}
 
   ansi-regex@5.0.1: {}
 

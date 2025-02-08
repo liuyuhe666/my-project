@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import BackTop from './components/BackTop.vue'
+import Fireworks from './components/Fireworks.vue'
 import Footer from './components/Footer.vue'
 import Header from './components/Header.vue'
 import ProjectCard from './components/ProjectCard.vue'
@@ -13,6 +14,7 @@ const currentIndex = ref<number>(-1)
 
 <template>
   <div class="bg" />
+  <Fireworks />
   <Header />
   <div class="main-container">
     <h2 v-motion-slide-left>

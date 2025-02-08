@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { TinyColor } from '@ctrl/tinycolor'
+
 const data = defineProps<{
   name: string
   emoji: string
@@ -7,6 +9,11 @@ const data = defineProps<{
   url: string
   github: string
 }>()
+
+const tinyColor = new TinyColor(data.color)
+const startColor = tinyColor.spin(55).toHexString()
+const endColor = data.color
+
 function openLink(url: string) {
   if (url) {
     window.open(url)
@@ -48,7 +55,7 @@ function openLink(url: string) {
     align-items: center;
     color: var(--text-color);
     border-radius: var(--border-radius);
-    background: linear-gradient(to right bottom, var(--background-color), v-bind(color));
+    background: linear-gradient(to right bottom, v-bind(startColor), v-bind(endColor));
     &:hover {
         transform: translateY(-3px);
         box-shadow: 0 1px 8px var(--shadow-color);
