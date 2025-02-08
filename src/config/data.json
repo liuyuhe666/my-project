@@ -120,7 +120,16 @@
   {
     "title": "实验",
     "emoji": "🧪",
-    "children": []
+    "children": [
+      {
+        "name": "my-animated-signature",
+        "emoji": "🎉",
+        "color": "#f87171",
+        "description": "My Animated Signature",
+        "url": "http://liuyuhe666.github.io/my-animated-signature",
+        "github": "https://github.com/liuyuhe666/my-animated-signature"
+      }
+    ]
   },
   {
     "title": "其他",
