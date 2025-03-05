@@ -6,7 +6,6 @@
       {
         "name": "my-github-following",
         "emoji": "😢",
-        "color": "#ffb02e",
         "description": "GitHub Following",
         "url": "https://my-github-following.vercel.app",
         "github": "https://github.com/liuyuhe666/my-github-following"
@@ -14,7 +13,6 @@
       {
         "name": "bilibili-rank",
         "emoji": "📈",
-        "color": "#4ea5f5",
         "description": "哔哩哔哩排行榜",
         "url": "https://liuyuhe666.github.io/bilibili-rank",
         "github": "https://github.com/liuyuhe666/bilibili-rank"
@@ -22,7 +20,6 @@
       {
         "name": "bili-listen-video",
         "emoji": "🧐",
-        "color": "#b8c5d7",
         "description": "哔哩听视频",
         "url": "https://bili-listen-video.vercel.app",
         "github": "https://github.com/liuyuhe666/bili-listen-video"
@@ -30,7 +27,6 @@
       {
         "name": "easy-rss-reader",
         "emoji": "🎯",
-        "color": "#667788",
         "description": "一个极简的 RSS 在线浏览工具",
         "url": "https://easy-rss-reader.vercel.app",
         "github": "https://github.com/liuyuhe666/easy-rss-reader"
@@ -38,7 +34,6 @@
       {
         "name": "agg-hot-search",
         "emoji": "🔎",
-        "color": "#0078E7",
         "description": "聚合热搜 ⌈ 哔哩哔哩热搜 ⌋ ⌈ 微博热搜 ⌋ ⌈ 知乎热搜 ⌋ ⌈ 头条热搜 ⌋ ⌈ 抖音热搜 ⌋",
         "url": "https://agg-hot-search.vercel.app",
         "github": "https://github.com/liuyuhe666/agg-hot-search"
@@ -50,9 +45,15 @@
     "emoji": "🔧",
     "children": [
       {
+        "name": "image-proxy",
+        "emoji": "🧐",
+        "description": "🧐 Image Proxy",
+        "url": "https://github.com/liuyuhe666/image-proxy",
+        "github": "https://github.com/liuyuhe666/image-proxy"
+      },
+      {
         "name": "wx-gzh-cover",
         "emoji": "🤗",
-        "color": "#d99abe",
         "description": "微信公众号封面",
         "url": "https://wx-gzh-cover.vercel.app",
         "github": "https://github.com/liuyuhe666/wx-gzh-cover"
@@ -60,7 +61,6 @@
       {
         "name": "flzt-auto-checkin",
         "emoji": "😮",
-        "color": "#20c077",
         "description": "FLZT 机场签到",
         "url": "",
         "github": "https://github.com/liuyuhe666/flzt-auto-checkin"
@@ -68,7 +68,6 @@
       {
         "name": "my-api",
         "emoji": "🤓",
-        "color": "#2562ea",
         "description": "使用 Deno 和 Hono 构建的简单 API 列表项目",
         "url": "",
         "github": "https://github.com/liuyuhe666/my-api"
@@ -76,7 +75,6 @@
       {
         "name": "go-file-xor",
         "emoji": "🤓",
-        "color": "#0078e7",
         "description": "Go File XOR 👆🤓",
         "url": "",
         "github": "https://github.com/liuyuhe666/go-file-xor"
@@ -84,7 +82,6 @@
       {
         "name": "random-ua",
         "emoji": "😎",
-        "color": "#2b57d4",
         "description": "Random User Agent",
         "url": "",
         "github": "https://github.com/liuyuhe666/random-ua"
@@ -92,7 +89,6 @@
       {
         "name": "bilibili-qrcode-login",
         "emoji": "📺",
-        "color": "#f1e05a",
         "description": "Obtain a SESSDATA by logging in through QR code scanning",
         "url": "https://bilibili-qrcode-login-production.up.railway.app",
         "github": "https://github.com/liuyuhe666/bilibili-qrcode-login"
@@ -100,7 +96,6 @@
       {
         "name": "nextjs-moe-counter",
         "emoji": "✨",
-        "color": "#92a3b4",
         "description": "多种风格可选的萌萌计数器 | Moe Counter by Next.js",
         "url": "https://nextjs-moe-counter.vercel.app",
         "github": "https://github.com/liuyuhe666/nextjs-moe-counter"
@@ -124,7 +119,6 @@
       {
         "name": "my-animated-signature",
         "emoji": "🎉",
-        "color": "#f87171",
         "description": "My Animated Signature",
         "url": "http://liuyuhe666.github.io/my-animated-signature",
         "github": "https://github.com/liuyuhe666/my-animated-signature"
@@ -138,7 +132,6 @@
       {
         "name": "liuyuhe666.github.io",
         "emoji": "🚀",
-        "color": "#16a34a",
         "description": "我的博客",
         "url": "https://liuyuhe666.github.io",
         "github": "https://github.com/liuyuhe666/liuyuhe666.github.io"
@@ -146,7 +139,6 @@
       {
         "name": "微信公众号",
         "emoji": "😎",
-        "color": "#ffc978",
         "description": "✨ 微信公众号：爱编程的阿彬",
         "url": "https://sink.liuyuhe.us.kg/w2ypqe",
         "github": "https://github.com/lyh-gzh"
@@ -154,7 +146,6 @@
       {
         "name": "xLog",
         "emoji": "🧐",
-        "color": "#00a2e5",
         "description": "书写在区块链上的开源创作社区",
         "url": "https://hellolyh.xlog.app",
         "github": ""

@@ -1,18 +1,18 @@
 <script setup lang="ts">
 import { TinyColor } from '@ctrl/tinycolor'
+import { getRandomColor } from '../utils'
 
 const data = defineProps<{
   name: string
   emoji: string
-  color: string
   description: string
   url: string
   github: string
 }>()
-
-const tinyColor = new TinyColor(data.color)
-const startColor = tinyColor.spin(55).toHexString()
-const endColor = data.color
+const randomColor = getRandomColor()
+const color = new TinyColor(randomColor)
+const startColor = color.spin(55).toHexString()
+const endColor = color
 
 function openLink(url: string) {
   if (url) {
