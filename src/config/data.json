@@ -11,13 +11,6 @@
         "github": "https://github.com/liuyuhe666/my-github-following"
       },
       {
-        "name": "bilibili-rank",
-        "emoji": "📈",
-        "description": "哔哩哔哩排行榜",
-        "url": "https://liuyuhe666.github.io/bilibili-rank",
-        "github": "https://github.com/liuyuhe666/bilibili-rank"
-      },
-      {
         "name": "bili-listen-video",
         "emoji": "🧐",
         "description": "哔哩听视频",
