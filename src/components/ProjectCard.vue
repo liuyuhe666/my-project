@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { TinyColor } from '@ctrl/tinycolor'
-import { getRandomColor } from '../utils'
+import { getGradientColor } from '../utils'
 
 const data = defineProps<{
   name: string
@@ -9,10 +8,8 @@ const data = defineProps<{
   url: string
   github: string
 }>()
-const randomColor = getRandomColor()
-const color = new TinyColor(randomColor)
-const startColor = color.spin(55).toHexString()
-const endColor = color
+
+const [color1, color2] = getGradientColor()
 
 function openLink(url: string) {
   if (url) {
@@ -55,7 +52,7 @@ function openLink(url: string) {
     align-items: center;
     color: var(--text-color);
     border-radius: var(--border-radius);
-    background: linear-gradient(to right bottom, v-bind(startColor), v-bind(endColor));
+    background: linear-gradient(to left top, v-bind(color1), v-bind(color2));
     &:hover {
         transform: translateY(-3px);
         box-shadow: 0 1px 8px var(--shadow-color);

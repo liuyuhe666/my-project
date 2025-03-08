@@ -4,6 +4,13 @@
     "emoji": "📱",
     "children": [
       {
+        "name": "easy-github-image",
+        "emoji": "😍",
+        "description": "一个基于 GitHub API 的极简图床",
+        "url": "https://easy-github-image.vercel.app",
+        "github": "https://github.com/liuyuhe666/easy-github-image"
+      },
+      {
         "name": "my-github-following",
         "emoji": "😢",
         "description": "GitHub Following",
