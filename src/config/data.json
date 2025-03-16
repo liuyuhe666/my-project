@@ -11,20 +11,6 @@
         "github": "https://github.com/liuyuhe666/easy-github-image"
       },
       {
-        "name": "my-github-following",
-        "emoji": "😢",
-        "description": "GitHub Following",
-        "url": "https://my-github-following.vercel.app",
-        "github": "https://github.com/liuyuhe666/my-github-following"
-      },
-      {
-        "name": "bili-listen-video",
-        "emoji": "🧐",
-        "description": "哔哩听视频",
-        "url": "https://bili-listen-video.vercel.app",
-        "github": "https://github.com/liuyuhe666/bili-listen-video"
-      },
-      {
         "name": "easy-rss-reader",
         "emoji": "🎯",
         "description": "一个极简的 RSS 在线浏览工具",
@@ -37,6 +23,27 @@
         "description": "聚合热搜 ⌈ 哔哩哔哩热搜 ⌋ ⌈ 微博热搜 ⌋ ⌈ 知乎热搜 ⌋ ⌈ 头条热搜 ⌋ ⌈ 抖音热搜 ⌋",
         "url": "https://agg-hot-search.vercel.app",
         "github": "https://github.com/liuyuhe666/agg-hot-search"
+      },
+      {
+        "name": "bili-listen-video",
+        "emoji": "🧐",
+        "description": "哔哩听视频",
+        "url": "https://bili-listen-video.vercel.app",
+        "github": "https://github.com/liuyuhe666/bili-listen-video"
+      },
+      {
+        "name": "my-github-following",
+        "emoji": "😢",
+        "description": "GitHub Following",
+        "url": "https://my-github-following.vercel.app",
+        "github": "https://github.com/liuyuhe666/my-github-following"
+      },
+      {
+        "name": "china-github-ranking",
+        "emoji": "🧑‍💻",
+        "description": "China GitHub Ranking",
+        "url": "https://china-github-ranking-demo.vercel.app",
+        "github": "https://github.com/liuyuhe666/china-github-ranking-demo"
       }
     ]
   },
