@@ -112,7 +112,15 @@
   {
     "title": "整活",
     "emoji": "🤣",
-    "children": []
+    "children": [
+      {
+        "name": "top-rotation",
+        "emoji": "😡",
+        "description": "抽陀螺",
+        "url": "https://top-rotation.vercel.app",
+        "github": "https://github.com/liuyuhe666/top-rotation"
+      }
+    ]
   },
   {
     "title": "参与",
