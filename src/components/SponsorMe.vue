@@ -3,9 +3,12 @@ import { ref } from 'vue'
 import Image from './Image.vue'
 
 const isShow = ref(false)
-const proxyUrl = ref(import.meta.env.VITE_GITHUB_PROXY_URL)
-const alipayUrl = ref(`${proxyUrl.value}https://raw.githubusercontent.com/lyh-gzh/buy-me-a-coffee/refs/heads/main/assets/alipay.png`)
-const wxUrl = ref(`${proxyUrl.value}https://raw.githubusercontent.com/lyh-gzh/buy-me-a-coffee/refs/heads/main/assets/wx.png`)
+// const proxyUrl = ref(import.meta.env.VITE_GITHUB_PROXY_URL)
+// const alipayUrl = ref(`${proxyUrl.value}https://raw.githubusercontent.com/lyh-gzh/buy-me-a-coffee/refs/heads/main/assets/alipay.png`)
+// const wxUrl = ref(`${proxyUrl.value}https://raw.githubusercontent.com/lyh-gzh/buy-me-a-coffee/refs/heads/main/assets/wx.png`)
+const alipayUrl = ref(`https://raw.githubusercontent.com/lyh-gzh/buy-me-a-coffee/refs/heads/main/assets/alipay.png`)
+const wxUrl = ref(`https://raw.githubusercontent.com/lyh-gzh/buy-me-a-coffee/refs/heads/main/assets/wx.png`)
+const sponsorUrl = ref('https://github.com/lyh-gzh/buy-me-a-coffee')
 
 function toggle() {
   isShow.value = !isShow.value
@@ -22,7 +25,7 @@ function toggle() {
       <i class="fa-solid fa-heart" style="color: #f87171;" />
     </div>
     <div v-if="isShow" v-motion-pop class="sponsor-me-box">
-      <p>☕ Buy me a coffee</p>
+      <p><a :href="sponsorUrl" target="_blank">☕ Buy me a coffee</a></p>
       <div>
         <Image :src="alipayUrl" alt="支付宝" class="img" />
         <Image :src="wxUrl" alt="微信" class="img" />
