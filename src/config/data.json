@@ -1,0 +1,192 @@
+[
+  {
+    "title": "应用",
+    "emoji": "📱",
+    "children": [
+      {
+        "name": "ai-chatbot",
+        "emoji": "🤖",
+        "description": "多功能 AI 聊天机器人",
+        "url": "https://ai-chatbot-beta-ten-83.vercel.app",
+        "github": "https://github.com/liuyuhe666/ai-chatbot"
+      },
+      {
+        "name": "easy-github-image",
+        "emoji": "😍",
+        "description": "一个基于 GitHub API 的极简图床",
+        "url": "https://easy-github-image.vercel.app",
+        "github": "https://github.com/liuyuhe666/easy-github-image"
+      },
+      {
+        "name": "easy-rss-reader",
+        "emoji": "🎯",
+        "description": "一个极简的 RSS 在线浏览工具",
+        "url": "https://easy-rss-reader.vercel.app",
+        "github": "https://github.com/liuyuhe666/easy-rss-reader"
+      },
+      {
+        "name": "agg-hot-search",
+        "emoji": "🔎",
+        "description": "聚合热搜 ⌈ 哔哩哔哩热搜 ⌋ ⌈ 微博热搜 ⌋ ⌈ 知乎热搜 ⌋ ⌈ 头条热搜 ⌋ ⌈ 抖音热搜 ⌋",
+        "url": "https://agg-hot-search.vercel.app",
+        "github": "https://github.com/liuyuhe666/agg-hot-search"
+      },
+      {
+        "name": "bili-listen-video",
+        "emoji": "🧐",
+        "description": "哔哩听视频",
+        "url": "https://bili-listen-video.vercel.app",
+        "github": "https://github.com/liuyuhe666/bili-listen-video"
+      },
+      {
+        "name": "my-github-following",
+        "emoji": "😢",
+        "description": "GitHub Following",
+        "url": "https://my-github-following.vercel.app",
+        "github": "https://github.com/liuyuhe666/my-github-following"
+      },
+      {
+        "name": "china-github-ranking",
+        "emoji": "🧑‍💻",
+        "description": "China GitHub Ranking",
+        "url": "https://china-github-ranking-demo.vercel.app",
+        "github": "https://github.com/liuyuhe666/china-github-ranking-demo"
+      }
+    ]
+  },
+  {
+    "title": "工具",
+    "emoji": "🔧",
+    "children": [
+      {
+        "name": "image-proxy",
+        "emoji": "🧐",
+        "description": "🧐 Image Proxy",
+        "url": "https://github.com/liuyuhe666/image-proxy",
+        "github": "https://github.com/liuyuhe666/image-proxy"
+      },
+      {
+        "name": "wx-gzh-cover",
+        "emoji": "🤗",
+        "description": "微信公众号封面",
+        "url": "https://wx-gzh-cover.vercel.app",
+        "github": "https://github.com/liuyuhe666/wx-gzh-cover"
+      },
+      {
+        "name": "flzt-auto-checkin",
+        "emoji": "😮",
+        "description": "FLZT 机场签到",
+        "url": "",
+        "github": "https://github.com/liuyuhe666/flzt-auto-checkin"
+      },
+      {
+        "name": "my-api",
+        "emoji": "🤓",
+        "description": "使用 Deno 和 Hono 构建的简单 API 列表项目",
+        "url": "",
+        "github": "https://github.com/liuyuhe666/my-api"
+      },
+      {
+        "name": "go-file-xor",
+        "emoji": "🤓",
+        "description": "Go File XOR 👆🤓",
+        "url": "",
+        "github": "https://github.com/liuyuhe666/go-file-xor"
+      },
+      {
+        "name": "random-ua",
+        "emoji": "😎",
+        "description": "Random User Agent",
+        "url": "",
+        "github": "https://github.com/liuyuhe666/random-ua"
+      },
+      {
+        "name": "bilibili-qrcode-login",
+        "emoji": "📺",
+        "description": "Obtain a SESSDATA by logging in through QR code scanning",
+        "url": "https://bilibili-qrcode-login-production.up.railway.app",
+        "github": "https://github.com/liuyuhe666/bilibili-qrcode-login"
+      },
+      {
+        "name": "nextjs-moe-counter",
+        "emoji": "✨",
+        "description": "多种风格可选的萌萌计数器 | Moe Counter by Next.js",
+        "url": "https://nextjs-moe-counter.vercel.app",
+        "github": "https://github.com/liuyuhe666/nextjs-moe-counter"
+      },
+      {
+        "name": "my-nextjs-starter",
+        "emoji": "⚡️",
+        "description": "一个 Next.js (v15) 快速启动模板, 集成 Tailwind CSS (v4) + React (v19) + Auth.js + Prisma + TypeScript",
+        "url": "https://my-nextjs-starter-chi.vercel.app",
+        "github": "https://github.com/liuyuhe666/my-nextjs-starter"
+      }
+    ]
+  },
+  {
+    "title": "整活",
+    "emoji": "🤣",
+    "children": [
+      {
+        "name": "top-rotation",
+        "emoji": "😡",
+        "description": "抽陀螺",
+        "url": "https://top-rotation.vercel.app",
+        "github": "https://github.com/liuyuhe666/top-rotation"
+      }
+    ]
+  },
+  {
+    "title": "参与",
+    "emoji": "👥",
+    "children": [
+      {
+        "name": "RSSHub",
+        "emoji": "🧡",
+        "description": "Everything is RSSible",
+        "url": "https://docs.rsshub.app",
+        "github": "https://github.com/DIYgod/RSSHub"
+      },
+      {
+        "name": "xLog",
+        "emoji": "🪽",
+        "description": "An open-source creative community written on the blockchain",
+        "url": "https://xlog.app",
+        "github": "https://github.com/Crossbell-Box/xLog"
+      }
+    ]
+  },
+  {
+    "title": "实验",
+    "emoji": "🧪",
+    "children": [
+      {
+        "name": "my-animated-signature",
+        "emoji": "🎉",
+        "description": "My Animated Signature",
+        "url": "http://liuyuhe666.github.io/my-animated-signature",
+        "github": "https://github.com/liuyuhe666/my-animated-signature"
+      }
+    ]
+  },
+  {
+    "title": "其他",
+    "emoji": "📁",
+    "children": [
+      {
+        "name": "liuyuhe666.github.io",
+        "emoji": "🚀",
+        "description": "我的博客",
+        "url": "https://liuyuhe666.github.io",
+        "github": "https://github.com/liuyuhe666/liuyuhe666.github.io"
+      },
+      {
+        "name": "微信公众号",
+        "emoji": "😎",
+        "description": "✨ 微信公众号：爱编程的阿彬",
+        "url": "https://sink.liuyuhe.us.kg/w2ypqe",
+        "github": "https://github.com/lyh-gzh"
+      }
+    ]
+  }
+]
