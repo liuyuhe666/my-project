@@ -4,6 +4,13 @@
     "emoji": "📱",
     "children": [
       {
+        "name": "rm-img-bg",
+        "emoji": "🪄",
+        "description": "AI 一键去除图片背景，快速抠图，瞬间实现背景去除。",
+        "url": "https://rm-img-bg.vercel.app",
+        "github": "https://github.com/liuyuhe666/rm-img-bg"
+      },
+      {
         "name": "ai-chatbot",
         "emoji": "🤖",
         "description": "多功能 AI 聊天机器人",
