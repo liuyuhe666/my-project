@@ -66,6 +66,13 @@
     "emoji": "🔧",
     "children": [
       {
+        "name": "gh-og-img",
+        "emoji": "🔥",
+        "description": "🔥 提取 GitHub OpenGraph 图片",
+        "url": "https://github.com/liuyuhe666/gh-og-img/blob/main/README.md",
+        "github": "https://github.com/liuyuhe666/gh-og-img"
+      },
+      {
         "name": "image-proxy",
         "emoji": "🧐",
         "description": "🧐 Image Proxy",
